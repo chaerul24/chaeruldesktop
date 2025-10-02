@@ -24,11 +24,4 @@ Install dependencies berikut:
 
 ```bash
 pip install customtkinter pillow
----
-
-## 🚀 Terakhir: Build dan Upload
-
-### Build:
-
-```bash
 python -m build
