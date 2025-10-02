@@ -7,9 +7,12 @@ setup(
     description="Komponen GUI sederhana berbasis CustomTkinter untuk aplikasi desktop Python",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/chaerul24/chaeruldesktop",  # Ganti dengan URL GitHub kamu
+    url="https://github.com/chaerul24/chaeruldesktop",
     packages=find_packages(),
     include_package_data=True,
+    package_data={
+        "chaeruldesktop": ["icon/*.png"]
+    },
     install_requires=[
         "customtkinter",
         "pillow"
@@ -21,4 +24,3 @@ setup(
     ],
     python_requires='>=3.7',
 )
-
